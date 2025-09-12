@@ -146,7 +146,6 @@ public class EnemyPoolManager : MonoBehaviour
     }
 
     // 更新活跃敌人计数
-    // 不再需要遍历池子统计activeEnemyCount
 
     // 获取活跃敌人列表（用于调试）
     public List<GameObject> GetActiveEnemies()
