@@ -1,0 +1,7 @@
+# 忽略所有文件和目录
+*
+# 但不忽略 Assets/Script 目录及其内容
+!/Assets/Script/
+!/Assets/Script/**/*
+# 确保不忽略 .gitignore 本身（否则规则会失效）
+!.gitignore
